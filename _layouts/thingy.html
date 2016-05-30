@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	{% include head.html %}
+
+	<body>
+		<div class="page-content">
+			<div class="wrapper">
+			This is
+
+			<h1>Rea <span class="dot">'s</span> Website</h1>
+
+			These are<br>
+			Rea's other thingies:
+			{% if site.twitter_username %}
+				{% include icon-twitter.html username=site.twitter_username %}
+			{% endif %}
+
+			{% if site.github_username %}
+				{% include icon-github.html username=site.github_username %}
+			{% endif %}
+
+			{% if site.linkedin_username %}
+				{% include icon-linkedin.html username=site.linkedin_username %}
+			{% endif %}
+
+			{% if site.blog_url %}
+				{% include icon-blog.html url=site.blog_url %}
+			{% endif %}
+
+			</div>
+		</div>
+		
+		<div class="border right"></div>
+		<div class="border bottom"></div>
+	</body>
+
+</html>

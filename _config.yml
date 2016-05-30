@@ -6,14 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Rea Guiloreza
+title: Rea's Website
 email: reaguiloreza@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rea.website" # the base hostname & protocol for your site
+
+blog_url:  "http://whileinaloopless.place"
 twitter_username: rearidinghood
 github_username:  eyafaer
+linkedin_username:  reaguiloreza
 
 # Build settings
 markdown: kramdown

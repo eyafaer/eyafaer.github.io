@@ -1,4 +1,28 @@
 /**
+ * Border
+ */
+.border {
+	background-color: $brand-color;
+	position: absolute;
+}
+	.bottom {
+		height: 1rem;
+		width: 100%;
+		bottom: 0;
+	}
+	.right {
+		height: 100%;
+		width: 1rem;
+		top: 0;
+		right: 0;
+	}
+
+h1 {
+	color: white;
+	font-size: 2rem;
+}	
+	
+/**
  * Site header
  */
 .site-header {
